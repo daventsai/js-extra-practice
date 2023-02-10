@@ -8,3 +8,6 @@ EX: 2000 + 18 - 2 * 1;
 */
 
 // YOUR CODE BELOW
+
+let yr = (5000/2) - 500 + 23;
+console.log(yr);
