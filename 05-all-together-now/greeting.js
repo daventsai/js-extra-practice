@@ -6,6 +6,18 @@
 // greeting(); // => Hello!
 
 // YOUR CODE BELOW
+function greeting(name){
+    let greet;
+
+    if (name !== undefined){
+        greet = `Hello ${name}!`;
+    }
+    else{
+        greet = `Hello!`;
+    }
+
+    return greet;
+}
 
 // Do not change the code below
 module.exports = { greeting };

@@ -15,6 +15,26 @@
 // everyWhichWay(1, 1000, 50); // => null
 
 // YOUR CODE BELOW
+function everyWhichWay(num1,num2,num3){
+    let type;
+    if (num3 === num1+num2){
+        type = 'sum';
+    }
+    else if(num3 === num1-num2){
+        type = 'difference';
+    }
+    else if(num3 === num1*num2){
+        type = 'product';
+    }
+    else if(num3===num1/num2){
+        type = 'fraction';
+    }
+    else{
+        type = null;
+    }
+
+    return type;
+}
 
 // Do not change the code below
 module.exports = { everyWhichWay };

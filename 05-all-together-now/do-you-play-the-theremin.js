@@ -8,6 +8,19 @@
 // doYouPlayTheTheremin('Scott'); // => true
 
 // YOUR CODE BELOW
+function doYouPlayTheTheremin(word){
+    let result;
+
+    if (word.charAt(0).toUpperCase() === "S"){
+        result = true;
+    }
+    else{
+        result=false;
+    }
+    
+
+    return result;
+}
 
 // Do not change the code below
 module.exports = { doYouPlayTheTheremin };
