@@ -6,3 +6,6 @@ EX: "apples".toUpperCase() OUTPUT: "APPLES"
 */
 
 // YOUR CODE BELOW
+let str = "what up world?";
+str=str.toUpperCase();
+console.log(str);

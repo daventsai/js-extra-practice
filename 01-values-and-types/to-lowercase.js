@@ -6,3 +6,6 @@ EX: "FULLSTACK ACADEMY".toLowerCase() OUTPUT: "fullstack academy";
 */
 
 // YOUR CODE BELOW
+let str = "WHAT UP WORLD?";
+str=str.toLowerCase();
+console.log(str);

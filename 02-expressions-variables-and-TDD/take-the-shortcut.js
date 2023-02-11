@@ -11,6 +11,10 @@
 let happyNum = 1000;
 
 // YOUR CODE BELOW
+happyNum+=2;
+happyNum/=2;
+happyNum-=496;
+console.log(happyNum);
 
 // Do not change the code below
 module.exports = { happyNum };
